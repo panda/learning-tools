@@ -1,0 +1,13 @@
+[networking]
+vpc_name = "panda-local-vpc"
+
+[compute]
+instance_name = "panda-local-dev-instance"
+machine_type = "n1-standard-1"
+zone = "us-central1-a"
+
+[storage]
+bucket_name = "panda-local-dev"
+region = "US"
+versioning = true
+uniform_bucket_level_access = true
